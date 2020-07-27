@@ -1,0 +1,91 @@
+.tingee-font {
+	font-family: "TINGEEdemo";
+	font-size: 30px;
+	font-weight: bold;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #1F272A;
+	overflow: hidden;
+}
+
+img	{
+	padding: 0 10px;
+	width: 100%;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.menu li {
+	color: #C7A10B;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menu li:hover {
+	opacity: 0.5;
+}
+.menu a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+	margin: 0 40px;
+	padding: 10px 0;
+}
+
+header .left {
+	text-align: left;
+	width: 52%;
+}
+
+
+.center {
+	float: right;
+}
+
+
+.float-right {
+	float: right;
+}
+
+.fa-facebook, .fa-twitter, .fa-camera-retro  {
+	margin-left: 15px;
+}
+.contact {
+	margin-right: 15px;
+}
+
+/*.fa-facebook::after {
+	content: "\0399";
+	display: inline-block;
+	height: 13px;
+	width: 4px;
+	margin-right: 5px;
+
+	}*/
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+
+.titlesize {
+	font-size: 180px;
+}
